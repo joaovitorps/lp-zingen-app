@@ -1,0 +1,14 @@
+.menu-item {
+  display: inline-block;
+  color: var(--text-color-secondary);
+
+  cursor: pointer;
+
+  &:hover {
+    background: var(--brand-gradient);
+    color: transparent;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
