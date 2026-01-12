@@ -22,6 +22,30 @@
   padding-inline: var(--padding-x-lg);
 }
 
+.flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.column-gap-1\.5 {
+  column-gap: 1.5rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.border-red {
+  border: solid red;
+}
+
 .desktop-only {
   display: none;
 }

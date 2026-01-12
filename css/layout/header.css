@@ -1,0 +1,5 @@
+header > nav {
+  & > a:nth-child(1) {
+    font: 500 1.5rem/2rem "Paytone One", sans-serif;
+  }
+}

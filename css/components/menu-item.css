@@ -1,5 +1,4 @@
 .menu-item {
-  display: inline-block;
   color: var(--text-color-secondary);
 
   cursor: pointer;
