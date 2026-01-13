@@ -29,6 +29,21 @@
     no-repeat center/cover url(/assets/Illustration.svg);
 }
 
+#about {
+  background-color: var(--surface-color);
+
+  & > div {
+    & > span {
+      color: var(--brand-color-primary);
+      font-size: var(--fs-sm);
+    }
+
+    & > p {
+      color: var(--text-color-secondary);
+    }
+  }
+}
+
 @media (width >= 1280px) {
   #hero {
     height: calc(100dvh - 6rem);
@@ -60,8 +75,6 @@
   }
 
   #cellphone-img {
-    & > div > img {
-      display: none;
-    }
+    display: none;
   }
 }
