@@ -6,10 +6,19 @@
       width: 12.875rem;
     }
 
+    & > h1 {
+      margin-top: 1rem;
+    }
+
     & > p {
+      margin-top: 0.5rem;
       color: var(--text-color-secondary);
       line-height: 1.4;
       font-size: var(--fs-lg);
+    }
+
+    & > div {
+      margin-top: 2rem;
     }
   }
 }
@@ -18,4 +27,41 @@
   margin-top: 5rem;
   background: linear-gradient(to bottom, var(--background-color), transparent),
     no-repeat center/cover url(/assets/Illustration.svg);
+}
+
+@media (width >= 1280px) {
+  #hero {
+    height: calc(100dvh - 6rem);
+    background: linear-gradient(
+        to bottom,
+        var(--background-color) 50%,
+        transparent
+      ),
+      no-repeat bottom center/contain url(/assets/Illustration.svg);
+
+    & > div {
+      & > img {
+        width: 25.75rem;
+      }
+
+      & > h1 {
+        margin-top: 1.5rem;
+      }
+
+      & > p {
+        margin-top: 1rem;
+        font-size: 2.5rem;
+      }
+
+      & > div {
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  #cellphone-img {
+    & > div > img {
+      display: none;
+    }
+  }
 }
