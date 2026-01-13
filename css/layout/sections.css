@@ -1,0 +1,21 @@
+#hero {
+  & > div {
+    text-align: center;
+
+    & > img {
+      width: 12.875rem;
+    }
+
+    & > p {
+      color: var(--text-color-secondary);
+      line-height: 1.4;
+      font-size: var(--fs-lg);
+    }
+  }
+}
+
+#cellphone-img {
+  margin-top: 5rem;
+  background: linear-gradient(to bottom, var(--background-color), transparent),
+    no-repeat center/cover url(/assets/Illustration.svg);
+}

@@ -26,16 +26,40 @@
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .justify-content-between {
   justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .align-center {
   align-items: center;
 }
 
+.gap-1 {
+  gap: 1rem;
+}
+
 .column-gap-1\.5 {
   column-gap: 1.5rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-0\.5 {
+  margin-top: 0.5rem;
 }
 
 .mr-auto {
