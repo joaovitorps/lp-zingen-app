@@ -90,4 +90,16 @@
       width: 34rem;
     }
   }
+
+  #features {
+    grid-auto-flow: unset;
+    grid-auto-columns: unset;
+    grid-template-columns: repeat(4, 1fr);
+
+    & > div:nth-child(2),
+    & > div:nth-child(4),
+    & > div:nth-child(5) {
+      grid-column: span 2;
+    }
+  }
 }
